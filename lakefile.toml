@@ -1,6 +1,6 @@
 name = "lean-demo-20250502"
 version = "0.1.0"
-defaultTargets = ["False", "putnam_2005_a4", "algebra_amgm_prod1toneq1_sum1tongeqn"]
+defaultTargets = ["False", "False2", "putnam_2005_a4", "algebra_amgm_prod1toneq1_sum1tongeqn"]
 
 [[require]]
 name = "mathlib"
@@ -9,6 +9,8 @@ rev = "v4.9.0"
 
 [[lean_lib]]
 name = "False"
+[[lean_lib]]
+name = "False2"
 
 [[lean_lib]]
 name = "putnam_2005_a4"
