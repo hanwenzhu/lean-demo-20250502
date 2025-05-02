@@ -1,0 +1,11 @@
+name = "algebra_amgm_prod1toneq1_sum1tongeqn"
+version = "0.1.0"
+defaultTargets = ["AlgebraAmgmProd1toneq1Sum1tongeqn"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.9.0"
+
+[[lean_lib]]
+name = "AlgebraAmgmProd1toneq1Sum1tongeqn"
